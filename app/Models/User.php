@@ -25,6 +25,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'email_verified_at',
+        'last_name',
+        'first_name',
     ];
 
     /**
@@ -45,4 +48,23 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function roles(){
+        return $this->belongsToMany(Role::class, 'user_roles');
+    }
+
+    public function isAdmin()
+    {
+    return $this->roles()->where('role', 'admin')->exists();
+    }
+
+    public function mocks(){
+        return $this->belongsToMany(Mock::class, 'user_mocks')->withPivot(['score', 'score_status']);;
+    }
+
+    public function userAnswer(){
+        return $this->hasMany(UserAnswer::class);
+    }
 }
+
+

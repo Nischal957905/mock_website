@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100svh;
+    background-color: #A7B7C3;
+    padding: 5rem 18.5rem;
+}
+
+.img-par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-text{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    align-items: center;
+    height: 5.5rem;
+}
+
+.error{
+    color: red;
+}
+
+.log-text >p{
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 18px;
+}
+
+.img-par > img{
+    display: block;
+    max-width: 23rem;
+    background-color: brown;
+    height: 100%;
+    object-fit: contain;
+}
+
+.login-form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+}
+
+.signform{
+    width: 23rem;
+}
+
+.lop{
+    justify-content: center;
+    align-items: center;
+}
+
+.log-head,.log-wel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.new > label{
+    display: block;
+    min-width: 80px;
+}
+
+.np{
+    background-color:#9BEFFA;
+}
+
+.signimg>img{
+    max-width: 28rem;
+}
+
+.np >p{
+    color: #333;
+}
+
+.stl{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.lt{
+    margin-bottom: 35px;
+}
+
+.new > input{
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #fff; 
+}
+
+.log-btn{
+    margin-top: 25px;
+    background-color: rgba(106, 104, 202, 1);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.log-head{
+    margin-top: 33px;
+}
+
+.log-head >p{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+}
+.log-wel{
+    margin-top: 10px;
+}
+
+.log-wel >p{
+    font-family: 'Concert One', cursive;
+    font-size: 10px;
+}
+
+.navBar{
+    display: flex;
+    border-bottom: 3px solid #A7B7C3;
+  transform: translateY(-0.5px) rotateX(2deg);
+    align-items: center;
+    min-height: 10vh;
+    padding: 0px 15px;
+}
+
+.navBar > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.navBar > form > button{
+    background-color: transparent;
+    border-color: transparent;
+    font-size:medium;
+}
+
+.navBar >h3 {
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    margin-right: auto;
+}
+
+.mock-holder{
+    background-color: #A7B7C3;
+    min-height: 90vh;
+    padding: 3rem 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-mock{
+    display: flex;
+}
+
+.line{
+    min-width: 10px;
+    background-color: #85929c;
+}
+
+.each-mock{
+    padding: 10px;
+    background-color: white;
+    min-width: 100%;
+    border-bottom: 5px solid #A7B7C3;
+    display: flex;
+}
+
+.hero{
+    margin-right: auto;
+}
+
+.redir{
+    margin: auto 10px 10px 10px;
+}
+
+.redir>a{
+    text-decoration: none;
+    background-color: rgb(119, 119, 183);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+.hero > h3{
+    margin-bottom: 8px;
+    color: rgb(120, 22, 120);
+}
+
+.start{
+    color: purple;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.msg{
+    font-size: 12px;
+    
+}
+
+.end{
+    color: rgb(103, 13, 103);
+    font-size: 10px;
+    
+}
+
+.radiobtn{
+    max-width: fit-content;
+    padding: 5px 15px;
+    background-color:  #4973a9;
+    margin-bottom: 5px;
+    color:white;
+    border-radius: 3px;
+}
+
+.question{
+    color: rgb(66, 43, 93);
+    margin: 10px 0px;
+}
+
+.wrap-mock{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 20px;
+    background-color: #A7B7C3;
+}
+
+.submitbtn{
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.btn-holder{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.btn-holder > button{
+    cursor: pointer;
+}
+
+.score-wrap{
+    background-color: #A7B7C3;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goback{
+    text-decoration: none;
+    background-color:  rgba(106, 104, 202, 1);
+    color: white;
+    padding: 13px 20px;
+    border-radius: 0px 4px 4px 0px;
+}
+.stls{
+    background-color: rgb(76, 75, 145);
+    color:white;
+    padding: 13px 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.lines{
+    min-height: 3px;
+    margin-top: 10px;
+    background-color: #4973a9;
+}
+
+.sidebar-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+.body-part{
+    width: 100%;
+}
+
+.linker{
+    margin-top: 3rem;
+}
+
+.linker > div> a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 4rem;
+}
+
+.linker > div{
+    background-color: rgb(63, 156, 206);
+    padding: .5rem 0rem;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+
+.sidebar{
+    background-color: #123651;
+    padding: 0rem 1rem;
+    min-height: 90vh;
+}
+
+
+.student-wrap{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+}
+
+.form-wrap{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(5px);
+}
+
+.header-form{
+    background-color: #76D4BD;
+    color: white;
+    text-align: center;
+    padding: 1rem 6rem;
+}
+
+.form-wrap >form{
+    padding: 2rem 2rem;
+    align-items: center;
+}
+
+.form-area> button{
+    background-color: #76D4BD;
+    border: none;
+    color: white;
+    max-width: fit-content;
+    margin-top: 2rem;
+    padding: .7rem 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.student-wrap{
+    margin-top: 4rem;
+}
+
+.form-wrap>form>div>label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 7px 0px;
+    color: #333;
+}
+
+.form-wrap >form>div>input,.form-area>select{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.klop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.neutral{
+    display: flex;
+    justify-content: center;
+}
